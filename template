@@ -1,0 +1,5 @@
+protocol bgp %IX_NAME%_%ASN% from tpl_%IX_NAME%_peers {
+	neighbor %ROUTER_IP% as %ASN%;
+	description "%IX_NAME% / %PEER_NAME%";
+}
+
